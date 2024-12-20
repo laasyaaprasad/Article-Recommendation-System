@@ -4,7 +4,17 @@
 
 # Solution 
 
-A  recommendation engine which is a function between users and items. The objective is to match each item with users through a recommendation engine which predicts which item a user will like the most. 
+A  recommendation engine which is a function between users and items. The objective is to match each item with users through a recommendation engine which predicts which item a user will like the most. There are mainly 3 types of recommendation systems. 
+
+* Content-Based Recommendation Systems: These systems suggest items similar to those a user has interacted with, leveraging item attributes and user preferences to identify patterns and recommend relevant content.
+
+* Collaborative Filtering: This method predicts user preferences by analyzing past interactions, relying on user-item relationships and similarities among users or items, independent of content attributes.
+
+* Hybrid Recommendation Systems: These combine content-based and collaborative filtering techniques to overcome limitations of individual methods, enhancing accuracy and robustness in recommendations.
+
+<img width="600" alt="Screenshot 2024-12-20 at 2 15 15 PM" src="https://github.com/user-attachments/assets/9e0d3dbc-d0be-4c2c-8cf1-44d77d624351" />
+
+
 
 The Matchmaking Formula (Objective Function) is a special formula to score how well each item matches each user’s tastes. This score is calculated for every possible user-item pairing. For each user, the engine looks at all the scores and picks the item with the highest score. 
 
